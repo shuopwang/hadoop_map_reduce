@@ -1,6 +1,6 @@
 # hadoop_map_reduce
 
-I suppose that each input file is the action of one customer.
+I suppose that each line in input file is a transaction. 
 
 TokenizerMapper extends Mapper function.
 
@@ -48,6 +48,7 @@ par-r-00000:
 
 book1	 book2 cd2 cd1 cd3  
 book2	 book1 cd2 cd1 cd3  
-cd1	 book1 cd2 book2  
-cd2	 book1 book2 cd1 cd3  
-cd3	 book2 book1 cd2
+cd1	 book2 book1  
+cd2	 book1 book2  
+cd3	 book2 book1  
+
