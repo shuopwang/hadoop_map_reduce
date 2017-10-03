@@ -46,9 +46,9 @@ My output:
 par-r-00000:
 (it's already sorted, though i didn't show the exact number to customer)
 
-book1	 book2 cd2 cd1 cd3  
-book2	 book1 cd2 cd1 cd3  
-cd1	 book2 book1  
-cd2	 book1 book2  
-cd3	 book2 book1  
+book1	       book2 cd2 cd1 cd3  
+book2	       book1 cd2 cd1 cd3  
+cd1	         book2 book1  
+cd2	         book1 book2  
+cd3	         book2 book1  
 
