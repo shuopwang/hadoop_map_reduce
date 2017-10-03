@@ -1,5 +1,7 @@
 # hadoop_map_reduce
 
+I suppose that each input file is the action of one customer.
+
 TokenizerMapper extends Mapper function.
 
 1.
