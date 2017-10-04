@@ -23,15 +23,15 @@ It will transform the mapwritable object into map object. We will sort the map o
 
 
 My input:
-
-file01 :
-book1, book2, cd1
-book1, cd2
-
-file02:
-book1, book2, cd3
-book1, book2, cd2
-
+  
+file01 :  
+book1, book2, cd1  
+book1, cd2  
+  
+file02:  
+book1, book2, cd3  
+book1, book2, cd2  
+  
 My output:
 
 par-r-00000:
