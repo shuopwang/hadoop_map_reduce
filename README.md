@@ -4,20 +4,11 @@ I suppose that each line in input file is a transaction.
 
 TokenizerMapper extends Mapper function.
 
-1.
-
-In the setup(), I create a hash map<String,Int>. It is used to store the word-count.
-
-2.
-
 In the map(), I try to count word
 If the key not in the hash map, we add(Key,1) into the hash map
 else, we put the (key,count+1) into the hash map
+After we have already got the hash map for one customer's transaction, we use a loop to send<item, <other_item,count>>
 
-3.
-
-In the cleanup, I transform the hash map into mapwritable.
-I send the (key,mapwritable) to the next step.
 
 
 HashCombiner extends Reducer.
